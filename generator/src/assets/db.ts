@@ -18,6 +18,12 @@ import rings from './rings.jpg'
 import inception from './inception.jpg'
 import fight from './fightclub.jpg'
 import forrest from './forrest.jpg'
+import good from './good.jpg'
+import matrix from './matrix.jpg'
+import sevensamurai from './sevensamurai.jpg'
+import goodfelllas from './goodfellas.jpg'
+import parasite from './parasite.jpg'
+import interstrelalr from './interstrellar.jpg'
 type Movie={
     id:number
     title:string
@@ -242,6 +248,72 @@ type Movie={
     language: 'English',
     ratingIMDB: 8.8,
     posterURL: forrest
+},
+{
+    id: 20,
+    title: 'The Good, the Bad and the Ugly',
+    description: 'A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.',
+    releaseYear: 1966,
+    genre: ['western', 'adventure'],
+    duration: 177,
+    language: 'Italian',
+    ratingIMDB: 8.8,
+    posterURL: good
+},
+{
+    id: 21,
+    title: 'The Matrix',
+    description: 'A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.',
+    releaseYear: 1999,
+    genre: ['action', 'sci-fi'],
+    duration: 136,
+    language: 'English',
+    ratingIMDB: 8.7,
+    posterURL: matrix
+},
+{
+    id: 22,
+    title: 'Seven Samurai',
+    description: 'A village of desperate farmers hire seven ronin to combat bandits who will return after the harvest to steal their crops.',
+    releaseYear: 1954,
+    genre: ['action', 'drama'],
+    duration: 207,
+    language: 'Japanese',
+    ratingIMDB: 8.6,
+    posterURL: sevensamurai
+},
+{
+    id: 23,
+    title: 'Goodfellas',
+    description: 'The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.',
+    releaseYear: 1990,
+    genre: ['biography', 'crime', 'drama'],
+    duration: 146,
+    language: 'English',
+    ratingIMDB: 8.7,
+    posterURL: goodfelllas
+},
+{
+    id: 24,
+    title: 'Parasite',
+    description: 'Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.',
+    releaseYear: 2019,
+    genre: ['drama', 'thriller', 'comedy'],
+    duration: 132,
+    language: 'Korean',
+    ratingIMDB: 8.5,
+    posterURL: parasite
+},
+{
+    id: 16,
+    title: 'Interstellar',
+    description: 'When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.',
+    releaseYear: 2014,
+    genre: ['adventure', 'drama', 'sci-fi'],
+    duration: 169,
+    language: 'English',
+    ratingIMDB: 8.7,
+    posterURL: interstrelalr
 }
 
 ]
