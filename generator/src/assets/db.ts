@@ -24,6 +24,20 @@ import sevensamurai from './sevensamurai.jpg'
 import goodfelllas from './goodfellas.jpg'
 import parasite from './parasite.jpg'
 import interstrelalr from './interstrellar.jpg'
+import space from './space.jpg'
+import lamb from './lambs.jpg'
+import whiplash from './whiplash.jpg'
+import cityofgod from './cityofgod.jpg'
+import trumanshow from './truemanshow.jpg'
+import oldboy from './oldboy.jpg'
+import bladerunner from './bladerunner.jpg'
+import memento from './memato.jpg'
+import madmax from './madmax.jpg'
+import spirited from './spiritedaway.jpg'
+import prestige from './prestige.jpg'
+import django from './django.jpg'
+import gladiator from './gladiator.jpg'
+import departed from './departed.jpg'
 type Movie={
     id:number
     title:string
@@ -314,7 +328,164 @@ type Movie={
     language: 'English',
     ratingIMDB: 8.7,
     posterURL: interstrelalr
-}
+},
+{
+    "id": 17,
+    "title": "2001: A Space Odyssey",
+    "description": "After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with the help of intelligent supercomputer H.A.L. 9000.",
+    "releaseYear": 1968,
+    "genre": ["adventure", "sci-fi"],
+    "duration": 149,
+    "language": "English",
+    "ratingIMDB": 8.3,
+    "posterURL": space
+},
+{
+    "id": 18,
+    "title": "The Silence of the Lambs",
+    "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+    "releaseYear": 1991,
+    "genre": ["crime", "drama", "thriller"],
+    "duration": 118,
+    "language": "English",
+    "ratingIMDB": 8.6,
+    "posterURL": lamb
+},
+{
+    "id": 19,
+    "title": "Whiplash",
+    "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "releaseYear": 2014,
+    "genre": ["drama", "music"],
+    "duration": 106,
+    "language": "English",
+    "ratingIMDB": 8.5,
+    "posterURL": whiplash
+},
+{
+    "id": 20,
+    "title": "City of God",
+    "description": "In the poverty-stricken slums of Rio de Janeiro, two boys' paths diverge: one struggles to become a photographer while the other becomes a powerful and ruthless drug kingpin.",
+    "releaseYear": 2002,
+    "genre": ["crime", "drama"],
+    "duration": 130,
+    "language": "Portuguese",
+    "ratingIMDB": 8.6,
+    "posterURL": cityofgod
+},
+{
+    "id": 21,
+    "title": "The Truman Show",
+    "description": "An insurance salesman discovers his whole life is actually a reality TV show broadcast to the entire world, where every person he knows is an actor and every moment is scripted.",
+    "releaseYear": 1998,
+    "genre": ["comedy", "drama", "sci-fi"],
+    "duration": 103,
+    "language": "English",
+    "ratingIMDB": 8.2,
+    "posterURL": trumanshow
+},
+{
+    "id": 22,
+    "title": "Oldboy",
+    "description": "After being kidnapped and imprisoned for fifteen years, a man is released, only to find that he must track down his captor in five days to understand the reason for his suffering.",
+    "releaseYear": 2003,
+    "genre": ["action", "drama", "mystery"],
+    "duration": 120,
+    "language": "Korean",
+    "ratingIMDB": 8.4,
+    "posterURL": oldboy
+},
+{
+    "id": 23,
+    "title": "Blade Runner 2049",
+    "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos.",
+    "releaseYear": 2017,
+    "genre": ["action", "drama", "sci-fi"],
+    "duration": 164,
+    "language": "English",
+    "ratingIMDB": 8.0,
+    "posterURL": bladerunner
+},
+{
+    "id": 24,
+    "title": "Memento",
+    "description": "A man with short-term memory loss attempts to track down his wife's murderer, using a system of Polaroid photographs and tattoos to keep track of information he cannot remember.",
+    "releaseYear": 2000,
+    "genre": ["mystery", "thriller"],
+    "duration": 113,
+    "language": "English",
+    "ratingIMDB": 8.4,
+    "posterURL": memento
+},
+{
+    "id": 25,
+    "title": "Mad Max: Fury Road",
+    "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search of her homeland with the help of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+    "releaseYear": 2015,
+    "genre": ["action", "adventure", "sci-fi"],
+    "duration": 120,
+    "language": "English",
+    "ratingIMDB": 8.1,
+    "posterURL": madmax
+},
+
+  {
+    "id": 26,
+    "title": "Spirited Away",
+    "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits; a world where humans are changed into beasts.",
+    "releaseYear": 2001,
+    "genre": ["animation", "adventure", "family"],
+    "duration": 125,
+    "language": "Japanese",
+    "ratingIMDB": 8.6,
+    "posterURL": spirited
+  },
+  
+ 
+  {
+    "id": 27,
+    "title": "The Prestige",
+    "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "releaseYear": 2006,
+    "genre": ["drama", "mystery", "sci-fi"],
+    "duration": 130,
+    "language": "English",
+    "ratingIMDB": 8.5,
+    "posterURL": prestige
+  },
+  {
+    "id": 28,
+    "title": "Django Unchained",
+    "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+    "releaseYear": 2012,
+    "genre": ["drama", "western"],
+    "duration": 165,
+    "language": "English",
+    "ratingIMDB": 8.5,
+    "posterURL":django
+  },
+  {
+    "id": 29,
+    "title": "Gladiator",
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "releaseYear": 2000,
+    "genre": ["action", "adventure", "drama"],
+    "duration": 155,
+    "language": "English",
+    "ratingIMDB": 8.5,
+    "posterURL": gladiator
+  },
+  {
+    "id": 30,
+    "title": "The Departed",
+    "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    "releaseYear": 2006,
+    "genre": ["crime", "drama", "thriller"],
+    "duration": 151,
+    "language": "English",
+    "ratingIMDB": 8.5,
+    "posterURL": departed
+  }
 
 ]
 
