@@ -9,6 +9,15 @@ import birdman from './birdman.jpg'
 import inside from './inside.jpg'
 import thefall from './thefall.jpg'
 import seven from './seven.jpg'
+import redemption from './redemotion.jpg'
+import godfather from './godfather.jpg'
+import darkknight from './darkknight.jpg'
+import shhlist from './schlist.jpg'
+import angry from './12angry.jpg'
+import rings from './rings.jpg'
+import inception from './inception.jpg'
+import fight from './fightclub.jpg'
+import forrest from './forrest.jpg'
 type Movie={
     id:number
     title:string
@@ -135,7 +144,106 @@ type Movie={
     language: 'English',
     ratingIMDB: 8.6,
     posterURL: seven
+},
+{
+    id: 11,
+    title: 'The Shawshank Redemption',
+    description: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+    releaseYear: 1994,
+    genre: ['drama', 'crime'],
+    duration: 142,
+    language: 'English',
+    ratingIMDB: 9.3,
+    posterURL: redemption
+},
+{
+    id: 12,
+    title: 'The Godfather',
+    description: 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
+    releaseYear: 1972,
+    genre: ['crime', 'drama'],
+    duration: 175,
+    language: 'English',
+    ratingIMDB: 9.2,
+    posterURL: godfather
+},
+{
+    id: 13,
+    title: 'The Dark Knight',
+    description: 'When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.',
+    releaseYear: 2008,
+    genre: ['action', 'crime', 'drama'],
+    duration: 152,
+    language: 'English',
+    ratingIMDB: 9.0,
+    posterURL: darkknight
+},{
+    id: 14,
+    title: `Schindler 's List`,
+    description: 'In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.',
+    releaseYear: 1993,
+    genre: ['biography', 'drama', 'history'],
+    duration: 195,
+    language: 'English',
+    ratingIMDB: 9.0,
+    posterURL: shhlist
+},
+{
+    id: 15,
+    title: '12 Angry Men',
+    description: 'A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence in a murder trial.',
+    releaseYear: 1957,
+    genre: ['crime', 'drama'],
+    duration: 96,
+    language: 'English',
+    ratingIMDB: 9.0,
+    posterURL: angry
+},
+{
+    id: 16,
+    title: 'The Lord of the Rings: The Return of the King',
+    description: 'Gandalf and Aragorn lead the World of Men against Sauron s army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.',
+    releaseYear: 2003,
+    genre: ['action', 'adventure', 'fantasy'],
+    duration: 201,
+    language: 'English',
+    ratingIMDB: 9.0,
+    posterURL:rings
+},
+{
+    id:17,
+    title: 'Inception',
+    description: 'A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.',
+    releaseYear: 2010,
+    genre: ['action', 'adventure', 'sci-fi'],
+    duration: 148,
+    language: 'English',
+    ratingIMDB: 8.8,
+    posterURL: inception
+},
+{
+    id: 18,
+    title: 'Fight Club',
+    description: 'An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.',
+    releaseYear: 1999,
+    genre: ['drama'],
+    duration: 139,
+    language: 'English',
+    ratingIMDB: 8.8,
+    posterURL: fight
+},
+{
+    id: 19,
+    title: 'Forrest Gump',
+    description: 'The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.',
+    releaseYear: 1994,
+    genre: ['drama', 'romance'],
+    duration: 142,
+    language: 'English',
+    ratingIMDB: 8.8,
+    posterURL: forrest
 }
+
 ]
 
 
