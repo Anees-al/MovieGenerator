@@ -1,4 +1,3 @@
-
 import silence from './silence.jpg'
 import revenant from './revenant.jpg'
 import prisoners from './prisoners.jpg'
@@ -38,6 +37,26 @@ import prestige from './prestige.jpg'
 import django from './django.jpg'
 import gladiator from './gladiator.jpg'
 import departed from './departed.jpg'
+import greenmile from './greenmile.jpg'
+import pianist from './pianist.jpg'
+import usualsuspects from './usualsuspects.jpg'
+import leon from './leon.jpg'
+import american_history from './americanistory.jpg'
+import casablanca from './casabalanca.jpg'
+import psyco from './psyco.jpg'
+import onceuponatime from './usualsuspects.jpg'
+import rear_window from './rearwindow.jpg'
+import modern_times from './moderntimes.jpg'
+import city_lights from './city_lights.jpg'
+import cinema_paradiso from './cinema_paradiso.jpg'
+import grave_fireflies from './grave_fireflies.jpg'
+import alien from './alien.jpg'
+import apocalypse from './apocalypse.jpg'
+import lionking from './lionking.jpg'
+import  backtofuture from './backtofuture.jpg'
+import spiderman from './spiderman.jpg'
+import hara_kiri from './hara_kiri.jpg'
+
 type Movie={
     id:number
     title:string
@@ -319,7 +338,7 @@ type Movie={
     posterURL: parasite
 },
 {
-    id: 16,
+    id: 25,
     title: 'Interstellar',
     description: 'When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.',
     releaseYear: 2014,
@@ -330,7 +349,7 @@ type Movie={
     posterURL: interstrelalr
 },
 {
-    "id": 17,
+    "id": 26,
     "title": "2001: A Space Odyssey",
     "description": "After discovering a mysterious artifact buried beneath the Lunar surface, mankind sets off on a quest to find its origins with the help of intelligent supercomputer H.A.L. 9000.",
     "releaseYear": 1968,
@@ -341,7 +360,7 @@ type Movie={
     "posterURL": space
 },
 {
-    "id": 18,
+    "id": 27,
     "title": "The Silence of the Lambs",
     "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
     "releaseYear": 1991,
@@ -352,7 +371,7 @@ type Movie={
     "posterURL": lamb
 },
 {
-    "id": 19,
+    "id": 28,
     "title": "Whiplash",
     "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
     "releaseYear": 2014,
@@ -363,7 +382,7 @@ type Movie={
     "posterURL": whiplash
 },
 {
-    "id": 20,
+    "id": 29,
     "title": "City of God",
     "description": "In the poverty-stricken slums of Rio de Janeiro, two boys' paths diverge: one struggles to become a photographer while the other becomes a powerful and ruthless drug kingpin.",
     "releaseYear": 2002,
@@ -374,7 +393,7 @@ type Movie={
     "posterURL": cityofgod
 },
 {
-    "id": 21,
+    "id": 30,
     "title": "The Truman Show",
     "description": "An insurance salesman discovers his whole life is actually a reality TV show broadcast to the entire world, where every person he knows is an actor and every moment is scripted.",
     "releaseYear": 1998,
@@ -385,7 +404,7 @@ type Movie={
     "posterURL": trumanshow
 },
 {
-    "id": 22,
+    "id": 31,
     "title": "Oldboy",
     "description": "After being kidnapped and imprisoned for fifteen years, a man is released, only to find that he must track down his captor in five days to understand the reason for his suffering.",
     "releaseYear": 2003,
@@ -396,7 +415,7 @@ type Movie={
     "posterURL": oldboy
 },
 {
-    "id": 23,
+    "id": 32,
     "title": "Blade Runner 2049",
     "description": "Thirty years after the events of the first film, a new blade runner, LAPD Officer K, unearths a long-buried secret that has the potential to plunge what's left of society into chaos.",
     "releaseYear": 2017,
@@ -407,7 +426,7 @@ type Movie={
     "posterURL": bladerunner
 },
 {
-    "id": 24,
+    "id": 33,
     "title": "Memento",
     "description": "A man with short-term memory loss attempts to track down his wife's murderer, using a system of Polaroid photographs and tattoos to keep track of information he cannot remember.",
     "releaseYear": 2000,
@@ -418,7 +437,7 @@ type Movie={
     "posterURL": memento
 },
 {
-    "id": 25,
+    "id": 34,
     "title": "Mad Max: Fury Road",
     "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search of her homeland with the help of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
     "releaseYear": 2015,
@@ -430,7 +449,7 @@ type Movie={
 },
 
   {
-    "id": 26,
+    "id": 35,
     "title": "Spirited Away",
     "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits; a world where humans are changed into beasts.",
     "releaseYear": 2001,
@@ -443,7 +462,7 @@ type Movie={
   
  
   {
-    "id": 27,
+    "id": 36,
     "title": "The Prestige",
     "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
     "releaseYear": 2006,
@@ -454,7 +473,7 @@ type Movie={
     "posterURL": prestige
   },
   {
-    "id": 28,
+    "id": 37,
     "title": "Django Unchained",
     "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
     "releaseYear": 2012,
@@ -465,7 +484,7 @@ type Movie={
     "posterURL":django
   },
   {
-    "id": 29,
+    "id": 38,
     "title": "Gladiator",
     "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
     "releaseYear": 2000,
@@ -476,7 +495,7 @@ type Movie={
     "posterURL": gladiator
   },
   {
-    "id": 30,
+    "id": 39,
     "title": "The Departed",
     "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
     "releaseYear": 2006,
@@ -485,7 +504,227 @@ type Movie={
     "language": "English",
     "ratingIMDB": 8.5,
     "posterURL": departed
-  }
+  },
+  {
+    id: 40,
+    title: 'The Green Mile',
+    description: 'The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift.',
+    releaseYear: 1999,
+    genre: ['crime', 'drama', 'fantasy'],
+    duration: 189,
+    language: 'English',
+    ratingIMDB: 8.6,
+    posterURL: greenmile
+},
+{
+    id: 41,
+    title: 'The Pianist',
+    description: 'A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.',
+    releaseYear: 2002,
+    genre: ['biography', 'drama', 'music'],
+    duration: 150,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: pianist
+},
+{
+    id: 42,
+    title: 'The Usual Suspects',
+    description: 'A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.',
+    releaseYear: 1995,
+    genre: ['crime', 'mystery', 'thriller'],
+    duration: 106,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: usualsuspects
+},
+{
+    id: 43,
+    title: 'Léon: The Professional',
+    description: '12-year-old Mathilda is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée.',
+    releaseYear: 1994,
+    genre: ['action', 'crime', 'drama'],
+    duration: 110,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: leon
+},
+{
+    id: 44,
+    title: 'American History X',
+    description: 'A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did.',
+    releaseYear: 1998,
+    genre: ['crime', 'drama'],
+    duration: 119,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: american_history
+},
+{
+    id: 45,
+    title: 'Casablanca',
+    description: 'A cynical American expatriate struggles to decide whether or not he should help his former lover and her fugitive husband escape French Morocco.',
+    releaseYear: 1942,
+    genre: ['drama', 'romance', 'war'],
+    duration: 102,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: casablanca
+},
+{
+    id: 46,
+    title: 'Psycho',
+    description: 'A Phoenix secretary absconds with $40,000 from her employer\'s client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother.',
+    releaseYear: 1960,
+    genre: ['horror', 'mystery', 'thriller'],
+    duration: 109,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: psyco
+},
+{
+    id: 47,
+    title: 'Once Upon a Time in the West',
+    description: 'A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.',
+    releaseYear: 1968,
+    genre: ['western'],
+    duration: 165,
+    language: 'Italian',
+    ratingIMDB: 8.5,
+    posterURL: onceuponatime
+},
+{
+    id: 48,
+    title: 'Rear Window',
+    description: 'A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window, and becomes convinced one of them has committed murder.',
+    releaseYear: 1954,
+    genre: ['mystery', 'thriller'],
+    duration: 112,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: rear_window
+},
+{
+    id: 49,
+    title: 'Modern Times',
+    description: 'The Tramp struggles to live in modern industrial society with the help of a young homeless woman.',
+    releaseYear: 1936,
+    genre: ['comedy', 'drama', 'romance'],
+    duration: 87,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: modern_times
+},
+{
+    id: 50,
+    title: 'City Lights',
+    description: 'With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically.',
+    releaseYear: 1931,
+    genre: ['comedy', 'drama', 'romance'],
+    duration: 87,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: city_lights
+},
+{
+    id: 51,
+    title: 'Cinema Paradiso',
+    description: 'A filmmaker recalls his childhood when falling in love with the pictures at the village movie theater and forms a deep friendship with the theater\'s projectionist.',
+    releaseYear: 1988,
+    genre: ['drama', 'romance'],
+    duration: 155,
+    language: 'Italian',
+    ratingIMDB: 8.5,
+    posterURL: cinema_paradiso
+},
+{
+    id: 52,
+    title: 'Grave of the Fireflies',
+    description: 'A young boy and his little sister struggle to survive in Japan during World War II.',
+    releaseYear: 1988,
+    genre: ['animation', 'drama', 'war'],
+    duration: 89,
+    language: 'Japanese',
+    ratingIMDB: 8.5,
+    posterURL: grave_fireflies
+},
+{
+    id: 53,
+    title: 'Alien',
+    description: 'The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.',
+    releaseYear: 1979,
+    genre: ['horror', 'sci-fi'],
+    duration: 117,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: alien
+},
+{
+    id: 54,
+    title: 'Apocalypse Now',
+    description: 'A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.',
+    releaseYear: 1979,
+    genre: ['drama', 'mystery', 'war'],
+    duration: 147,
+    language: 'English',
+    ratingIMDB: 8.4,
+    posterURL: apocalypse
+},
+{
+    id: 55,
+    title: 'Memento',
+    description: 'A man with short-term memory loss attempts to track down his wife\'s murderer.',
+    releaseYear: 2000,
+    genre: ['mystery', 'thriller'],
+    duration: 113,
+    language: 'English',
+    ratingIMDB: 8.4,
+    posterURL: memento
+},
+{
+    id: 56,
+    title: 'The Lion King',
+    description: 'Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.',
+    releaseYear: 1994,
+    genre: ['animation', 'adventure', 'drama'],
+    duration: 88,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: lionking
+},
+{
+    id: 57,
+    title: 'Back to the Future',
+    description: 'Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, Doc Brown.',
+    releaseYear: 1985,
+    genre: ['adventure', 'comedy', 'sci-fi'],
+    duration: 116,
+    language: 'English',
+    ratingIMDB: 8.5,
+    posterURL: backtofuture
+},
+{
+    id: 58,
+    title: 'Harakiri',
+    description: 'An elder ronin arrives at a feudal lord\'s home and requests an honorable place to commit ritual suicide, but then he tells the story of his son-in-law\'s brutal end.',
+    releaseYear: 1962,
+    genre: ['action', 'drama', 'mystery'],
+    duration: 133,
+    language: 'Japanese',
+    ratingIMDB: 8.6,
+    posterURL: hara_kiri
+},
+{
+    id: 59,
+    title: 'Spider-Man: Into the Spider-Verse',
+    description: 'Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.',
+    releaseYear: 2018,
+    genre: ['animation', 'action', 'adventure'],
+    duration: 117,
+    language: 'English',
+    ratingIMDB: 8.4,
+    posterURL: spiderman // Reusing a valid placeholder from your list
+}
 
 ]
 
